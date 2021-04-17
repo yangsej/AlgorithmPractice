@@ -28,7 +28,7 @@ class Main {
         // System.out.println(answer.toString());
 
 
-        ArrayList<Stack<Integer>> path = new ArrayList<Stack<Integer>>(6);
+        ArrayList<Stack<Integer>> path = new ArrayList<Stack<Integer>>();
         System.out.println(path.get(3));
 
         // br.close();

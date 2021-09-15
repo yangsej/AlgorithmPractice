@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/AlgorithmPractice.iml" filepath="$PROJECT_DIR$/.idea/AlgorithmPractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SCPC/2021/2021.iml" filepath="$PROJECT_DIR$/SCPC/2021/2021.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AlgorithmPractice.iml" filepath="$PROJECT_DIR$/AlgorithmPractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SCPC/SCPC.iml" filepath="$PROJECT_DIR$/SCPC/SCPC.iml" />
     </modules>
   </component>
 </project>

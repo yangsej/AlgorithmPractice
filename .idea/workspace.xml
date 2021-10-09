@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d7e74ac6-ac31-41f6-86f8-e2134a2574b0" name="Changes" comment="바킹독 문제집(https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)&#10;0x05강 - BFS, DFS_구버전 [7/24]">
-      <change afterPath="$PROJECT_DIR$/Baekjoon/P2583.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/P2667.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/P9466.java" afterDir="false" />
+    <list default="true" id="d7e74ac6-ac31-41f6-86f8-e2134a2574b0" name="Changes" comment="바킹독 문제집(https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)&#10;0x05강 - BFS, DFS_구버전 [9/24]">
+      <change afterPath="$PROJECT_DIR$/Baekjoon/P10026.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon/P2206.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon/P2468.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon/P2573.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -12,10 +13,22 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Rebase.Settings">
     <option name="NEW_BASE" value="origin/main" />
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="yangsej &lt;yangsej@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="main" />
@@ -57,7 +70,14 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.P2583">
+  <component name="RunManager" selected="애플리케이션.P2573">
+    <configuration name="P10026" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="P10026" />
+      <module name="AlgorithmPractice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="P13699" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="P13699" />
       <module name="AlgorithmPractice" />
@@ -65,8 +85,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P1697" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="P1697" />
+    <configuration name="P2206" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="P2206" />
+      <module name="AlgorithmPractice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="P2468" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="P2468" />
+      <module name="AlgorithmPractice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="P2573" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="P2573" />
       <module name="AlgorithmPractice" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -79,40 +113,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P2667" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="P2667" />
-      <module name="AlgorithmPractice" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="P7569" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="P7569" />
-      <module name="AlgorithmPractice" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="P9466" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="P9466" />
-      <module name="AlgorithmPractice" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="애플리케이션.P13699" />
-      <item itemvalue="애플리케이션.P1697" />
-      <item itemvalue="애플리케이션.P7569" />
-      <item itemvalue="애플리케이션.P9466" />
-      <item itemvalue="애플리케이션.P2667" />
       <item itemvalue="애플리케이션.P2583" />
+      <item itemvalue="애플리케이션.P10026" />
+      <item itemvalue="애플리케이션.P2206" />
+      <item itemvalue="애플리케이션.P2468" />
+      <item itemvalue="애플리케이션.P2573" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.P2573" />
+        <item itemvalue="애플리케이션.P2468" />
+        <item itemvalue="애플리케이션.P2206" />
+        <item itemvalue="애플리케이션.P10026" />
         <item itemvalue="애플리케이션.P2583" />
-        <item itemvalue="애플리케이션.P2667" />
-        <item itemvalue="애플리케이션.P9466" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633101421590</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="바킹독 문제집(https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)&#10;0x05강 - BFS, DFS_구버전 [9/24]">
+      <created>1633173158942</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1633173158942</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -173,7 +195,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="바킹독 문제집(https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)&#10;0x05강 - BFS, DFS_구버전 [7/24]" />
-    <option name="LAST_COMMIT_MESSAGE" value="바킹독 문제집(https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)&#10;0x05강 - BFS, DFS_구버전 [7/24]" />
+    <MESSAGE value="바킹독 문제집(https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)&#10;0x05강 - BFS, DFS_구버전 [9/24]" />
+    <option name="LAST_COMMIT_MESSAGE" value="바킹독 문제집(https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)&#10;0x05강 - BFS, DFS_구버전 [9/24]" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -199,9 +222,34 @@
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Baekjoon/P2583.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="21" />
+          <url>file://$PROJECT_DIR$/Baekjoon/P10026.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Baekjoon/P2206.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Baekjoon/P2206.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Baekjoon/P2468.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Baekjoon/P2468.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Baekjoon/P2573.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

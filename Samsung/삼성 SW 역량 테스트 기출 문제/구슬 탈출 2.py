@@ -1,54 +1,74 @@
-import sys
-input = sys.stdin.readline
-
 from collections import deque
 
 N, M = map(int, input().split())
 
-arr = []
+DIRS = [[1, 0], [0, 1], [-1, 0], [0, -1]]
 red = [0, 0]
 blue = [0, 0]
-out = [0, 0]
+
+A = [[""] * M for _ in range(N)]
 for n in range(N):
-    line = arr.append(input())
+    line = input()
     for m in range(M):
-        if line[m] == 'R':
+        A[n][m] = line[m]
+        if A[n][m] == 'R':
+            A[n][m] = '.'
             red = [n, m]
-            line[m] = '.'
-        elif line[m] == 'B':
+        elif A[n][m] == 'B':
+            A[n][m] = '.'
             blue = [n, m]
-            line[m] = '.'
-        elif line[m] == 'O':
-            out = [n, m]
-    arr.append(line)
 
-queue = deque([0, '', red, blue])
+answer = 11
+queue = deque([[red, blue, 0, -1]]) # red, blue, count, pre_dir
 
-answer = 0
 while queue:
-    count, way, red, blue = queue.popleft()
-    if count > 10:
-        answer = -1
-        break
+    [rr, rc], [br, bc], count, pd = queue.popleft()
 
-    vertical = False
-    horizontal = False
-    if red[1] == blue[1]: # R B 서로 위아래로 존재
-        vertical = True
-    elif red[0] == blue[0]: # R B 서로 좌우로 존재
-        horizontal = True
+    if count >= 10: continue
+    count += 1
 
-    # 위
-    while arr[red[0]-1][red[1]] != '#' or arr[blue[0]-1][blue[1]] != '#':
-        if vertical and red[0] < blue[0]: # R ... B
-        else:
-            if arr[red[0]-1][red[1]] != '#': red[0] -= 1
-            if arr[blue[0]-1][blue[1]] != '#': blue[0] -= 1
+    for d in range(len(DIRS)):
+        if pd == d: continue
+        dr, dc = DIRS[d]
 
-        if red[0] - blue[0] == 1:  # B 아래 R
+        rout, bout = False, False
 
-        if red[1] - blue[1] == 1:  # B 오른쪽 R
-        if red[1] - blue[1] == -1:  # B 왼쪽 R
+        prr, prc = rr, rc
+        pbr, pbc = br, bc
 
+        while True:
+            nrr, nrc = prr + dr, prc + dc
+            nbr, nbc = pbr + dr, pbc + dc
+
+            if A[nrr][nrc] == 'O':
+                rout = True
+                prr, prc = -1, -1
+                nrr, nrc = -1, -1
+            if A[nbr][nbc] == 'O':
+                bout = True
+                break
+
+            if A[nrr][nrc] == '#' or (nrr == pbr and nrc == pbc) or rout:
+                nrr, nrc = prr, prc
+            if A[nbr][nbc] == '#' or (nbr == prr and nbc == prc) or bout:
+                nbr, nbc = pbr, pbc
+
+            if prr == nrr and prc == nrc and pbr == nbr and pbc == nbc: break
+
+            prr, prc = nrr, nrc
+            pbr, pbc = nbr, nbc
+
+        if bout: continue
+        elif rout:
+            answer = count
+            queue.clear()
+            break
+
+        if rr == prr and rc == prc and br == pbr and bc == pbc: continue
+
+        queue.append([[prr, prc], [pbr, pbc], count, d])
+
+if answer == 11:
+    answer = -1
 
 print(answer)

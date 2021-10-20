@@ -1,14 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7e74ac6-ac31-41f6-86f8-e2134a2574b0" name="Changes" comment="바킹독 문제집(https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)&#10;0x05강 - BFS, DFS_구버전 [9/24]">
+    <list default="true" id="d7e74ac6-ac31-41f6-86f8-e2134a2574b0" name="Changes" comment="바킹독 문제집(https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)&#10;0x05강 - BFS, DFS_구버전 [12/24]">
+      <change afterPath="$PROJECT_DIR$/Baekjoon/P2146.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon/P5427.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon/스택/10773.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon/스택/10828.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon/스택/1874.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon/스택/2493.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon/스택/6198.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon/스택/P10773/P10773.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon/스택/P10828/P10828.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon/스택/P1874/P1874.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon/스택/P2493/P2493.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon/큐/10845.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon/큐/18258.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon/큐/2164.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Samsung/모의 SW 역량테스트/수영장.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Samsung/모의 SW 역량테스트/탈주범 검거.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Samsung/모의 SW 역량테스트/핀볼 게임.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/AlgorithmPractice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AlgorithmPractice.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon/Queue/10845.py" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon/큐/10845.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon/Queue/18258.py" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon/큐/18258.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon/Queue/2164.py" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon/큐/2164.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Samsung/삼성 SW 역량 테스트 기출 문제/구슬 탈출 2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Samsung/삼성 SW 역량 테스트 기출 문제/구슬 탈출 2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon/Queue/10845.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon/Queue/18258.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon/Queue/2164.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon/Stack/10773.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon/Stack/10828.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon/Stack/1874.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon/Stack/2493.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon/Stack/6198.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon/Stack/P10773/P10773.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon/Stack/P10828/P10828.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon/Stack/P1874/P1874.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon/Stack/P2493/P2493.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +47,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -47,7 +76,7 @@
     </file-type-list>
   </component>
   <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="d797c660-8607-4ebd-9303-44eef532b1c5" />
+    <option name="defaultAccountId" value="574a844e-b6f4-48d1-871f-e140acaac758" />
   </component>
   <component name="ProjectId" id="1ytEfeVkiUPnwnHgLPO0FUogEz2" />
   <component name="ProjectLevelVcsManager">
@@ -58,6 +87,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -65,30 +95,16 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.구슬 탈출 2">
-    <configuration name="P10026" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="P10026" />
-      <module name="AlgorithmPractice" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Python.수영장">
     <configuration name="P13699" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="P13699" />
-      <module name="AlgorithmPractice" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="P2468" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="P2468" />
       <module name="AlgorithmPractice" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -101,14 +117,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P2583" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="P2583" />
+    <configuration name="P5427" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="P5427" />
       <module name="AlgorithmPractice" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="구슬 탈출 2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="핀볼 게임" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AlgorithmPractice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -116,11 +132,53 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Samsung/삼성 SW 역량 테스트 기출 문제" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Samsung/모의 SW 역량테스트" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Samsung/삼성 SW 역량 테스트 기출 문제/구슬 탈출 2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Samsung/모의 SW 역량테스트/핀볼 게임.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="탈주범 검거" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AlgorithmPractice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Samsung/모의 SW 역량테스트" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Samsung/모의 SW 역량테스트/탈주범 검거.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="수영장" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AlgorithmPractice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Samsung/모의 SW 역량테스트" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Samsung/모의 SW 역량테스트/수영장.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -131,13 +189,13 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.구슬 탈출 2" />
+        <item itemvalue="Python.수영장" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
-    <configuration>C:\Users\양세준\AppData\Roaming\Subversion</configuration>
+    <configuration>C:\Users\ysj97\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -182,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633173158942</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="바킹독 문제집(https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)&#10;0x05강 - BFS, DFS_구버전 [12/24]">
+      <created>1633784876610</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1633784876610</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -198,32 +263,33 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="바킹독 문제집(https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)&#10;0x05강 - BFS, DFS_구버전 [7/24]" />
     <MESSAGE value="바킹독 문제집(https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)&#10;0x05강 - BFS, DFS_구버전 [9/24]" />
-    <option name="LAST_COMMIT_MESSAGE" value="바킹독 문제집(https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)&#10;0x05강 - BFS, DFS_구버전 [9/24]" />
+    <MESSAGE value="바킹독 문제집(https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)&#10;0x05강 - BFS, DFS_구버전 [12/24]" />
+    <option name="LAST_COMMIT_MESSAGE" value="바킹독 문제집(https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)&#10;0x05강 - BFS, DFS_구버전 [12/24]" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Samsung/삼성 SW 역량 테스트 기출 문제/구슬 탈출 2.py</url>
-          <line>60</line>
+          <url>file://$PROJECT_DIR$/Samsung/모의 SW 역량테스트/수영장.py</url>
+          <line>28</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Samsung/삼성 SW 역량 테스트 기출 문제/구슬 탈출 2.py</url>
-          <line>39</line>
-          <option name="timeStamp" value="4" />
+          <url>file://$PROJECT_DIR$/Samsung/모의 SW 역량테스트/핀볼 게임.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="prr, prc" language="Python" />
-        <watch expression="pbr, pbc" language="Python" />
-        <watch expression="nrr, nrc" language="Python" />
-        <watch expression="nbr, nbc" language="Python" />
-        <watch expression="rout, bout" language="Python" />
+        <watch expression="r, c" language="Python" />
+        <watch expression="block" language="Python" />
+        <watch expression="nr, nc" language="Python" />
+        <watch expression="i, j" language="Python" />
       </configuration>
     </watches-manager>
   </component>

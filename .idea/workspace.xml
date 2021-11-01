@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7e74ac6-ac31-41f6-86f8-e2134a2574b0" name="Changes" comment="SWEA 모의 SW 역량테스트(https://swexpertacademy.com/main/code/problem/problemList.do?contestProbId=&amp;categoryId=&amp;categoryType=&amp;problemTitle=%EB%AA%A8%EC%9D%98&amp;orderBy=FIRST_REG_DATETIME&amp;selectCodeLang=ALL&amp;select-1=&amp;pageSize=10&amp;pageIndex=1) [4/20]">
-      <change afterPath="$PROJECT_DIR$/Samsung/삼성 SW 역량 테스트 기출 문제/2048 (Easy).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Samsung/삼성 SW 역량 테스트 기출 문제/상어 중학교.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Samsung/삼성 SW 역량 테스트 기출 문제/상어 초등학교.py" afterDir="false" />
+    <list default="true" id="d7e74ac6-ac31-41f6-86f8-e2134a2574b0" name="Changes" comment="삼성 SW 역량 테스트 기출 문제(https://www.acmicpc.net/workbook/view/1152) [10/41]">
+      <change afterPath="$PROJECT_DIR$/Baekjoon/P5014.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/AlgorithmPractice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AlgorithmPractice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Python Script" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -64,7 +64,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Samsung/삼성 SW 역량 테스트 기출 문제" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="프로젝트" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
@@ -77,7 +77,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.상어 중학교">
+  <component name="RunManager" selected="애플리케이션.P5014">
     <configuration name="P13699" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="P13699" />
       <module name="AlgorithmPractice" />
@@ -92,12 +92,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="P5014" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="P5014" />
+      <module name="AlgorithmPractice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="P5427" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="P5427" />
       <module name="AlgorithmPractice" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="상어 초등학교" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AlgorithmPractice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Samsung/삼성 SW 역량 테스트 기출 문제" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Samsung/삼성 SW 역량 테스트 기출 문제/상어 초등학교.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="상어 중학교" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AlgorithmPractice" />
@@ -162,27 +190,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="상어 초등학교" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="AlgorithmPractice" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Samsung/삼성 SW 역량 테스트 기출 문제" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Samsung/삼성 SW 역량 테스트 기출 문제/상어 초등학교.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="수영장" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AlgorithmPractice" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -206,9 +213,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.상어 중학교" />
-        <item itemvalue="Python.상어 초등학교" />
-        <item itemvalue="Python.수영장" />
+        <item itemvalue="애플리케이션.P5014" />
       </list>
     </recent_temporary>
   </component>
@@ -273,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634728017389</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="삼성 SW 역량 테스트 기출 문제(https://www.acmicpc.net/workbook/view/1152) [10/41]">
+      <created>1634993738931</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1634993738931</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -294,75 +306,17 @@
     <MESSAGE value="바킹독 문제집(https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)&#10;0x05강 - BFS, DFS_구버전 [9/24]" />
     <MESSAGE value="바킹독 문제집(https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)&#10;0x05강 - BFS, DFS_구버전 [12/24]" />
     <MESSAGE value="SWEA 모의 SW 역량테스트(https://swexpertacademy.com/main/code/problem/problemList.do?contestProbId=&amp;categoryId=&amp;categoryType=&amp;problemTitle=%EB%AA%A8%EC%9D%98&amp;orderBy=FIRST_REG_DATETIME&amp;selectCodeLang=ALL&amp;select-1=&amp;pageSize=10&amp;pageIndex=1) [4/20]" />
-    <option name="LAST_COMMIT_MESSAGE" value="SWEA 모의 SW 역량테스트(https://swexpertacademy.com/main/code/problem/problemList.do?contestProbId=&amp;categoryId=&amp;categoryType=&amp;problemTitle=%EB%AA%A8%EC%9D%98&amp;orderBy=FIRST_REG_DATETIME&amp;selectCodeLang=ALL&amp;select-1=&amp;pageSize=10&amp;pageIndex=1) [4/20]" />
+    <MESSAGE value="삼성 SW 역량 테스트 기출 문제(https://www.acmicpc.net/workbook/view/1152) [10/41]" />
+    <option name="LAST_COMMIT_MESSAGE" value="삼성 SW 역량 테스트 기출 문제(https://www.acmicpc.net/workbook/view/1152) [10/41]" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Samsung/모의 SW 역량테스트/수영장.py</url>
-          <line>28</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Samsung/모의 SW 역량테스트/핀볼 게임.py</url>
-          <line>43</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Samsung/삼성 SW 역량 테스트 기출 문제/상어 초등학교.py</url>
-          <line>91</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Samsung/삼성 SW 역량 테스트 기출 문제/상어 초등학교.py</url>
-          <line>67</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Samsung/삼성 SW 역량 테스트 기출 문제/상어 초등학교.py</url>
-          <line>79</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Samsung/삼성 SW 역량 테스트 기출 문제/상어 중학교.py</url>
-          <line>57</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Samsung/삼성 SW 역량 테스트 기출 문제/상어 중학교.py</url>
-          <line>12</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Samsung/삼성 SW 역량 테스트 기출 문제/상어 중학교.py</url>
-          <line>73</line>
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Samsung/삼성 SW 역량 테스트 기출 문제/상어 중학교.py</url>
-          <line>80</line>
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Samsung/삼성 SW 역량 테스트 기출 문제/상어 중학교.py</url>
-          <line>102</line>
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Samsung/삼성 SW 역량 테스트 기출 문제/상어 중학교.py</url>
-          <line>94</line>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="r, c, nr" language="Python" />
-        <watch expression="A" language="Python" />
-        <watch expression="groups" language="Python" />
-        <watch expression="answer" language="Python" />
-        <watch expression="index" language="Python" />
+        <watch expression="r, c, nr" />
+        <watch expression="A" />
+        <watch expression="groups" />
+        <watch expression="answer" />
+        <watch expression="index" />
       </configuration>
     </watches-manager>
   </component>

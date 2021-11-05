@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7e74ac6-ac31-41f6-86f8-e2134a2574b0" name="Changes" comment="[BaaaaaaaaaaarkingDog의 공개 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)&#10;0x05강 - BFS, DFS_구버전 [15/41]&#10;&#10;+ [P13549 숨바꼭질 3](https://www.acmicpc.net/problem/13549)">
-      <change afterPath="$PROJECT_DIR$/Baekjoon/P13913.java" afterDir="false" />
+    <list default="true" id="d7e74ac6-ac31-41f6-86f8-e2134a2574b0" name="Changes" comment="[BaaaaaaaaaaarkingDog의 공개 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)&#10;0x05강 - BFS, DFS_구버전 [16/41]&#10;&#10;+ [P13913 숨바꼭질 4](https://www.acmicpc.net/problem/13913)">
+      <change afterPath="$PROJECT_DIR$/Baekjoon/P1600.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon/P3197.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +76,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.P13913">
+  <component name="RunManager" selected="애플리케이션.P3197">
     <configuration name="P13549" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="P13549" />
       <module name="AlgorithmPractice" />
@@ -97,15 +98,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P5014" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="P5014" />
+    <configuration name="P1600" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="P1600" />
       <module name="AlgorithmPractice" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P5427" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="P5427" />
+    <configuration name="P3197" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="P3197" />
       <module name="AlgorithmPractice" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -118,33 +119,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="핀볼 게임" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="AlgorithmPractice" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Samsung/모의 SW 역량테스트" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Samsung/모의 SW 역량테스트/핀볼 게임.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.P3197" />
+        <item itemvalue="애플리케이션.P1600" />
         <item itemvalue="애플리케이션.P13913" />
         <item itemvalue="애플리케이션.P13549" />
         <item itemvalue="애플리케이션.P6593" />
-        <item itemvalue="애플리케이션.P5014" />
       </list>
     </recent_temporary>
   </component>
@@ -237,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635946291343</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="[BaaaaaaaaaaarkingDog의 공개 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)&#10;0x05강 - BFS, DFS_구버전 [16/41]&#10;&#10;+ [P13913 숨바꼭질 4](https://www.acmicpc.net/problem/13913)">
+      <created>1636026916902</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1636026916902</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -262,7 +250,8 @@
     <MESSAGE value="[BaaaaaaaaaaarkingDog의 공개 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)&#10;0x05강 - BFS, DFS_구버전 [13/41]&#10;&#10;+ [P5014 스타트링크](https://www.acmicpc.net/problem/5014)" />
     <MESSAGE value="[BaaaaaaaaaaarkingDog의 공개 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)&#10;0x05강 - BFS, DFS_구버전 [14/41]&#10;&#10;+ [P6593 상범 빌딩](https://www.acmicpc.net/problem/6593)" />
     <MESSAGE value="[BaaaaaaaaaaarkingDog의 공개 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)&#10;0x05강 - BFS, DFS_구버전 [15/41]&#10;&#10;+ [P13549 숨바꼭질 3](https://www.acmicpc.net/problem/13549)" />
-    <option name="LAST_COMMIT_MESSAGE" value="[BaaaaaaaaaaarkingDog의 공개 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)&#10;0x05강 - BFS, DFS_구버전 [15/41]&#10;&#10;+ [P13549 숨바꼭질 3](https://www.acmicpc.net/problem/13549)" />
+    <MESSAGE value="[BaaaaaaaaaaarkingDog의 공개 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)&#10;0x05강 - BFS, DFS_구버전 [16/41]&#10;&#10;+ [P13913 숨바꼭질 4](https://www.acmicpc.net/problem/13913)" />
+    <option name="LAST_COMMIT_MESSAGE" value="[BaaaaaaaaaaarkingDog의 공개 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)&#10;0x05강 - BFS, DFS_구버전 [16/41]&#10;&#10;+ [P13913 숨바꼭질 4](https://www.acmicpc.net/problem/13913)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -277,6 +266,26 @@
           <line>26</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Baekjoon/P1600.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Baekjoon/P3197.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Baekjoon/P3197.java</url>
+          <line>88</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Baekjoon/P3197.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -286,6 +295,9 @@
         <watch expression="groups" />
         <watch expression="answer" />
         <watch expression="index" />
+      </configuration>
+      <configuration name="Application">
+        <watch expression="visit" />
       </configuration>
     </watches-manager>
   </component>

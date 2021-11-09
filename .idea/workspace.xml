@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7e74ac6-ac31-41f6-86f8-e2134a2574b0" name="Changes" comment="[BaaaaaaaaaaarkingDog의 공개 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)&#10;0x05강 - BFS, DFS_구버전 [19/41]&#10;&#10;+ [P9466 텀 프로젝트](https://www.acmicpc.net/problem/9466)">
+    <list default="true" id="d7e74ac6-ac31-41f6-86f8-e2134a2574b0" name="Changes" comment="[BaaaaaaaaaaarkingDog의 공개 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)&#10;0x05강 - BFS, DFS_구버전 [20/24]&#10;&#10;+ [P2206 벽 부수고 이동하기](https://www.acmicpc.net/problem/2206)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon/P2206.java" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon/P2206.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon/P5427.java" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon/P5427.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +75,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.P2206">
+  <component name="RunManager" selected="애플리케이션.P5427">
     <configuration name="P11967" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="P11967" />
       <module name="AlgorithmPractice" />
@@ -85,13 +85,6 @@
     </configuration>
     <configuration name="P13699" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="P13699" />
-      <module name="AlgorithmPractice" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="P1600" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="P1600" />
       <module name="AlgorithmPractice" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -111,6 +104,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="P5427" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="P5427" />
+      <module name="AlgorithmPractice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="P9466" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="P9466" />
       <module name="AlgorithmPractice" />
@@ -120,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.P5427" />
         <item itemvalue="애플리케이션.P2206" />
         <item itemvalue="애플리케이션.P9466" />
         <item itemvalue="애플리케이션.P11967" />
         <item itemvalue="애플리케이션.P3197" />
-        <item itemvalue="애플리케이션.P1600" />
       </list>
     </recent_temporary>
   </component>
@@ -245,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636278812733</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="[BaaaaaaaaaaarkingDog의 공개 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)&#10;0x05강 - BFS, DFS_구버전 [20/41]&#10;&#10;+ [P2206 벽 부수고 이동하기](https://www.acmicpc.net/problem/2206)">
+      <created>1636378055058</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1636378055058</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -274,7 +281,8 @@
     <MESSAGE value="[BaaaaaaaaaaarkingDog의 공개 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)&#10;0x05강 - BFS, DFS_구버전 [17/41]&#10;&#10;+ [P1600 말이 되고픈 원숭이](https://www.acmicpc.net/problem/1600)" />
     <MESSAGE value="[BaaaaaaaaaaarkingDog의 공개 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)&#10;0x05강 - BFS, DFS_구버전 [18/41]&#10;&#10;+ [P11967 불켜기](https://www.acmicpc.net/problem/11967)" />
     <MESSAGE value="[BaaaaaaaaaaarkingDog의 공개 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)&#10;0x05강 - BFS, DFS_구버전 [19/41]&#10;&#10;+ [P9466 텀 프로젝트](https://www.acmicpc.net/problem/9466)" />
-    <option name="LAST_COMMIT_MESSAGE" value="[BaaaaaaaaaaarkingDog의 공개 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)&#10;0x05강 - BFS, DFS_구버전 [19/41]&#10;&#10;+ [P9466 텀 프로젝트](https://www.acmicpc.net/problem/9466)" />
+    <MESSAGE value="[BaaaaaaaaaaarkingDog의 공개 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)&#10;0x05강 - BFS, DFS_구버전 [20/41]&#10;&#10;+ [P2206 벽 부수고 이동하기](https://www.acmicpc.net/problem/2206)" />
+    <option name="LAST_COMMIT_MESSAGE" value="[BaaaaaaaaaaarkingDog의 공개 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)&#10;0x05강 - BFS, DFS_구버전 [20/41]&#10;&#10;+ [P2206 벽 부수고 이동하기](https://www.acmicpc.net/problem/2206)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -343,6 +351,11 @@
           <url>file://$PROJECT_DIR$/Baekjoon/P2206.java</url>
           <line>28</line>
           <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Baekjoon/P5427.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="47" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

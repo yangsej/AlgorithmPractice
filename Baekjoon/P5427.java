@@ -22,30 +22,29 @@ public class P5427 {
                 Arrays.fill(ints, -1);
             }
 
-            Queue<Integer> R = new LinkedList<>(), C = new LinkedList<>();
+            Queue<int[]> Q = new LinkedList<>();
 
-            int rs = 0, cs = 0;
+            int[] start = {-1, -1};
             for (int h = 0; h < H; h++) {
                 building[h] = sc.next().toCharArray();
                 for (int w = 0; w < W; w++) {
                     if(building[h][w] == '@'){
-                        rs = h;
-                        cs = w;
-//                        R.add(h);
-//                        C.add(w);
+                        start[0] = h;
+                        start[1] = w;
+
                         building[h][w] = '.';
                         visit[h][w] = 0;
                     } else if(building[h][w] == '*'){
-                        R.add(h);
-                        C.add(w);
+                        Q.add(new int[] {h, w});
                         fires[h][w] = 0;
                     }
                 }
             }
 
             // 불 순서
-            while(!R.isEmpty()){
-                int r = R.poll(), c = C.poll();
+            while(!Q.isEmpty()){
+                int[] coord = Q.poll();
+                int r = coord[0], c = coord[1];
 
                 for (int[] dir : DIRS) {
                     int nr = r + dir[0], nc = c + dir[1];
@@ -55,19 +54,18 @@ public class P5427 {
                     if(building[nr][nc] != '.') continue;
 
                     fires[nr][nc] = fires[r][c] + 1;
-                    R.add(nr);
-                    C.add(nc);
+                    Q.add(new int[] {nr, nc});
                 }
             }
 
             // 이동 순서
-            int answer = 0;
+            int answer = -1;
 
-            R.add(rs);
-            C.add(cs);
+            Q.add(start);
 
-            while(!R.isEmpty()){
-                int r = R.poll(), c = C.poll();
+            while(!Q.isEmpty() && answer == -1){
+                int[] coord = Q.poll();
+                int r = coord[0], c = coord[1];
 
                 for (int[] dir : DIRS) {
                     int nr = r + dir[0], nc = c + dir[1];
@@ -78,11 +76,11 @@ public class P5427 {
                     }
                     if(visit[nr][nc] != -1) continue;
                     if(building[nr][nc] != '.') continue;
-                    if(fires[nr][nc] < visit[r][c]) continue;
+                    if(fires[nr][nc] != -1 && fires[nr][nc] <= visit[r][c] + 1) continue;
 
                     visit[nr][nc] = visit[r][c] + 1;
-                    R.add(nr);
-                    C.add(nc);
+
+                    Q.add(new int[] {nr, nc});
                 }
             }
 

@@ -19,38 +19,44 @@ public class P2146 {
 
         sc.close();
 
-        int num = 2;
+        int answer = 0, num = 2;
         int[][] DIRS = {{1, 0}, {0, 1}, {-1, 0}, {0, -1}};
         int[][] visit = new int[N][N];
 
+        Queue<int[]> landQ = new LinkedList<>(), seaQ = new LinkedList<>();
         for (int i = 0; i < N; i++) {
             for (int j = 0; j < N; j++) {
-                if(visit[i][j] == 1) continue;
+                if(A[i][j] != 1) continue;
+                if(visit[i][j] != 0) continue;
+                A[i][j] = num;
                 visit[i][j] = 1;
 
-                if(A[i][j] == 0) continue;
-                A[i][j] = num;
+                landQ.add(new int[] {i, j});
 
-                Queue<Integer> R = new LinkedList<>(), C = new LinkedList<>();
-                R.add(i);
-                C.add(j);
-
-                while (!R.isEmpty()){
-                    int r = R.poll(), c = C.poll();
+                while (!landQ.isEmpty()){
+                    int[] coord = landQ.poll();
+                    int r = coord[0], c = coord[1];
 
                     for (int[] dir : DIRS) {
                         int nr = r + dir[0], nc = c + dir[1];
 
                         if(nr < 0 || nr >= N || nc < 0 || nc >= N) continue;
 
-                        if(visit[nr][nc] == 1) continue;
+                        if(visit[nr][nc] != 0){
+                            if(A[r][c] != A[nr][nc]) {
+                                System.out.println(1);
+                                return;
+                            } else continue;
+                        }
                         visit[nr][nc] = 1;
 
-                        if(A[nr][nc] == 0) continue;
-                        A[nr][nc] = num;
+                        if(A[nr][nc] == 0){
+                            seaQ.add(new int[] {nr, nc});
+                        } else {
+                            landQ.add(new int[] {nr, nc});
+                        }
 
-                        R.add(nr);
-                        C.add(nc);
+                        A[nr][nc] = num;
                     }
                 }
 
@@ -58,46 +64,22 @@ public class P2146 {
             }
         }
 
-
-        visit = new int[N][N];
-        for (int[] ints : visit) {
-            Arrays.fill(ints, -1);
-        }
-
-        Queue<Integer> R = new LinkedList<>(), C = new LinkedList<>();
-        for (int i = 0; i < N; i++) {
-            for (int j = 0; j < N; j++) {
-                if(A[i][j] == 0) continue;
-                visit[i][j] = 0;
-
-                R.add(i);
-                C.add(j);
-            }
-        }
-
-        int answer = 0;
-
-        while (!R.isEmpty()){
-            int r = R.poll(), c = C.poll();
+        while (!seaQ.isEmpty() && answer == 0){
+            int[] coord = seaQ.poll();
+            int r = coord[0], c = coord[1];
 
             for (int[] dir : DIRS) {
                 int nr = r + dir[0], nc = c + dir[1];
 
                 if(nr < 0 || nr >= N || nc < 0 || nc >= N) continue;
+                if(visit[nr][nc] == 0 && A[nr][nc] == 0){
+                    visit[nr][nc] = visit[r][c] + 1;
+                    A[nr][nc] = A[r][c];
 
-                if(A[r][c] != A[nr][nc]){
-                    if(A[nr][nc] == 0){
-                        if(visit[nr][nc] != -1) continue;
-                        visit[nr][nc] = visit[r][c] + 1;
-                        A[nr][nc] = A[r][c];
-
-                        R.add(nr);
-                        C.add(nc);
-                    } else {
-                        answer = visit[r][c] + visit[nr][nc];
-                        R.clear();
-                        break;
-                    }
+                    seaQ.add(new int[] {nr, nc});
+                } else if(visit[nr][nc] != 0 && A[r][c] != A[nr][nc]){
+                    answer = visit[r][c] + visit[nr][nc];
+                    break;
                 }
             }
         }

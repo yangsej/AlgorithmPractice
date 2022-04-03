@@ -1,15 +1,17 @@
 import sys
 input = sys.stdin.readline
-from collections import deque
+# from collections import deque
 
 def solve():
     N = int(input())
-    stack = deque()
     index = 1
-    answer = deque()
+    # stack = deque()
+    # answer = deque()
+    stack = []
+    answer = []
     for n in range(N):
         i = int(input())
-        
+
         for j in range(index, i+1):
             stack.append(j)
             index += 1

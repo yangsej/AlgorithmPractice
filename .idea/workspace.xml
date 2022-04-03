@@ -4,17 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7e74ac6-ac31-41f6-86f8-e2134a2574b0" name="Changes" comment="[BaaaaaaaaaaarkingDog의 공개 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)&#10;0x06강 - 재귀_구버전 [2/7]&#10;&#10;+ [P11729 하노이 탑 이동 순서](https://www.acmicpc.net/problem/11729)">
-      <change afterPath="$PROJECT_DIR$/Baekjoon/15649.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/15650.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/15651.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/P1074.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/P1992.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/P2248.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/P2447.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/AlgorithmPractice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AlgorithmPractice.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="d7e74ac6-ac31-41f6-86f8-e2134a2574b0" name="Changes" comment="[BaaaaaaaaaaarkingDog의 공개 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)&#10;0x06강 - 재귀_구버전 [2/7]&#10;0x07강 - 백트래킹, 시뮬레이션_구버전 [7/54]&#10;&#10;+ [15649 N과 M(1)](https://www.acmicpc.net/problem/15649)&#10;+ [15650 N과 M(2)](https://www.acmicpc.net/problem/15650)&#10;+ [15651 N과 M(3)](https://www.acmicpc.net/problem/15651)">
+      <change afterPath="$PROJECT_DIR$/CodeJam/2022/3D Printing (13pts).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeJam/2022/Punched Cards (11pts).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeJam/2022/d1000000 (9pts, 11pts).py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon/15649.py" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon/15649.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon/Deque/5430.py" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon/Deque/5430.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon/스택/1874.py" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon/스택/1874.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +66,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Baekjoon" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/CodeJam/2022" />
     <property name="project.structure.last.edited" value="프로젝트" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -77,6 +74,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Programming\AlgorithmPractice\CodeJam\2022" />
       <recent name="D:\Programming\AlgorithmPractice\Baekjoon" />
       <recent name="D:\Programming\AlgorithmPractice\Samsung\삼성 SW 역량 테스트 기출 문제" />
     </key>
@@ -84,48 +82,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.15651">
-    <configuration name="P11729" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="P11729" />
-      <module name="AlgorithmPractice" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Python.d1000000 (9pts, 11pts)">
     <configuration name="P13699" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="P13699" />
       <module name="AlgorithmPractice" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="P17071" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="P17071" />
-      <module name="AlgorithmPractice" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="15649" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="AlgorithmPractice" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Baekjoon" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Baekjoon/15649.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
     <configuration name="15650" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AlgorithmPractice" />
@@ -169,11 +132,76 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="3D Printing (13pts)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AlgorithmPractice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CodeJam/2022" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CodeJam/2022/3D Printing (13pts).py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Punched Cards (11pts)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AlgorithmPractice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CodeJam/2022" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CodeJam/2022/Punched Cards (11pts).py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="d1000000 (9pts, 11pts)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AlgorithmPractice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CodeJam/2022" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CodeJam/2022/d1000000 (9pts, 11pts).py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.d1000000 (9pts, 11pts)" />
+        <item itemvalue="Python.3D Printing (13pts)" />
+        <item itemvalue="Python.Punched Cards (11pts)" />
         <item itemvalue="Python.15651" />
         <item itemvalue="Python.15650" />
-        <item itemvalue="Python.15649" />
       </list>
     </recent_temporary>
   </component>
@@ -322,7 +350,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636709819149</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="[BaaaaaaaaaaarkingDog의 공개 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)&#10;0x06강 - 재귀_구버전 [2/7]&#10;0x07강 - 백트래킹, 시뮬레이션_구버전 [7/54]&#10;&#10;+ [15649 N과 M(1)](https://www.acmicpc.net/problem/15649)&#10;+ [15650 N과 M(2)](https://www.acmicpc.net/problem/15650)&#10;+ [15651 N과 M(3)](https://www.acmicpc.net/problem/15651)">
+      <created>1648365902360</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1648365902360</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -354,14 +389,15 @@
     <MESSAGE value="[BaaaaaaaaaaarkingDog의 공개 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)&#10;0x05강 - BFS, DFS_구버전 [21/24]&#10;&#10;+ [P5427 불](https://www.acmicpc.net/problem/5427)" />
     <MESSAGE value="[BaaaaaaaaaaarkingDog의 공개 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)&#10;0x06강 - 재귀_구버전 [1/7]&#10;&#10;+ [P1629 곱셈](https://www.acmicpc.net/problem/1629)" />
     <MESSAGE value="[BaaaaaaaaaaarkingDog의 공개 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)&#10;0x06강 - 재귀_구버전 [2/7]&#10;&#10;+ [P11729 하노이 탑 이동 순서](https://www.acmicpc.net/problem/11729)" />
-    <option name="LAST_COMMIT_MESSAGE" value="[BaaaaaaaaaaarkingDog의 공개 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)&#10;0x06강 - 재귀_구버전 [2/7]&#10;&#10;+ [P11729 하노이 탑 이동 순서](https://www.acmicpc.net/problem/11729)" />
+    <MESSAGE value="[BaaaaaaaaaaarkingDog의 공개 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)&#10;0x06강 - 재귀_구버전 [2/7]&#10;0x07강 - 백트래킹, 시뮬레이션_구버전 [7/54]&#10;&#10;+ [15649 N과 M(1)](https://www.acmicpc.net/problem/15649)&#10;+ [15650 N과 M(2)](https://www.acmicpc.net/problem/15650)&#10;+ [15651 N과 M(3)](https://www.acmicpc.net/problem/15651)" />
+    <option name="LAST_COMMIT_MESSAGE" value="[BaaaaaaaaaaarkingDog의 공개 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)&#10;0x06강 - 재귀_구버전 [2/7]&#10;0x07강 - 백트래킹, 시뮬레이션_구버전 [7/54]&#10;&#10;+ [15649 N과 M(1)](https://www.acmicpc.net/problem/15649)&#10;+ [15650 N과 M(2)](https://www.acmicpc.net/problem/15650)&#10;+ [15651 N과 M(3)](https://www.acmicpc.net/problem/15651)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Baekjoon/15649.py</url>
-          <line>26</line>
+          <line>32</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -374,16 +410,19 @@
           <line>11</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CodeJam/2022/3D Printing (13pts).py</url>
+          <line>18</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CodeJam/2022/d1000000 (9pts, 11pts).py</url>
+          <line>8</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
-      <configuration name="PythonConfigurationType">
-        <watch expression="r, c, nr" />
-        <watch expression="A" />
-        <watch expression="groups" />
-        <watch expression="answer" />
-        <watch expression="index" />
-      </configuration>
       <configuration name="Application">
         <watch expression="visit[nv % 2][nn] &lt;= visit[2][nn]" />
         <watch expression="(visit[2][nn] - visit[v % 2][nn]) % 2 == 0" />

@@ -30,6 +30,7 @@ def solve():
         except:
             answer.append("error")
 
+
     return answer
 
 if __name__ == "__main__":

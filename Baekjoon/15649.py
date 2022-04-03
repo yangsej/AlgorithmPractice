@@ -22,6 +22,12 @@ def dfs():
 
 dfs()
 
+
+# from copy import deepcopy
+#
+# arr = [0] * M
+# visit = [False] * N
+#
 # stack = [[[0] * M, [False] * N, 0]]
 #
 # while stack:
